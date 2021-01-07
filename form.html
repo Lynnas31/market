@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css" >  table, th, td{
+           border:1px solid black;
+           }
+           table{
+           border-collaps:collapse;
+
+           }></style>
+</head>
+<body>
+<h1>Market Research Survey
+</h1>
+<h5>Please take a few moments to complete this satisfaction survey.
+</h5><hr>
+<form>
+   <h3>What is your age range?</h3><br>
+
+<select name="age">
+    <option   value="18-24">18-24                      </option>
+    <option  value="25-34">25-34</option>
+    <option  value="34-50">35-50</option>
+    <option  value="50+">50                                    </option>
+ </select>
+    <h3>What is your yearly income range?</h3>
+    <select name="sala"ry>
+        <option  value="$0-$25000">$0-$25000</option>
+        <option  value="$25000-$50000">$25001-$50000</option>
+        <option value="$50000-$100001">$50000-$100001</option>
+        <option value="+$100001">+$100001</option>
+
+
+    </select>
+    <h3>Gender Identity
+    </h3><br> <input type="radio" name="gender" >Male<br>
+    <input type="radio" name=gender"> Famele<br>
+    <input type="radio" name="gender" > Nonbinary<br>
+    <input type="radio" name="gender"> Other<br>
+    <input type="text" maxlength="2" id="sessionNo" name="sessionNum" onkeypress="return isNumberKey(event)" /><br>
+    <h3>Which of the following products have your purchased in the last 2 months. Please check all that apply.
+
+    </h3>
+<input type="checkbox" name="product"> product1<br>
+    <input type="checkbox" name="product">product2<br>
+
+    <input type="checkbox" name="product">product3
+    <h3>How often would you use our new product?
+    </h3>
+    <input type="radio" name="3">Daily<br>
+    <input type="radio" name="3">Weekly<br>
+    <input type="radio" name="3">Month
+    <h3>
+        What would you pay for the new product?
+
+    </h3><br>$
+    <span>
+		<input id="Field807" name="Field807" type="text" class="field text currency nospin" value="" size="10" tabindex="0" onkeyup="handleInput(this);" onchange="handleInput(this);">
+		<label for="Field807">Dollars</label>
+	</span><span class="cents">
+		<input id="Field807-1" name="Field807-1" type="text" class="field text nospin" value="" size="2" maxlength="2" tabindex="0" onkeyup="handleInput(this);" onchange="handleInput(this);">
+		<label for="Field807-1">Cents</label>
+	</span><br>
+    <h3>
+
+            What features would you like to see in the new product.
+            </h3>
+    <textarea cols="50" rows="10" placeholder=""
+              ></textarea><br>
+    <h3>
+
+            Please rate your level of agreement with the following statements.
+        </h3>
+    <table>
+        <tr>
+            <th>&nbsp;</th>
+            <td>Strongly Disagree</td>
+            <td>Disagree</td>
+            <td>Agree</td>
+            <td>Strongly Agree</td>
+        </tr>
+        <tr>
+            <th>Our products are priced fairly.	</th>
+            <td><input type="radio" name="1"><br><label>1</label></td>
+            <td><input type="radio" name="1"><br><label>2</label></td>
+            <td><input type="radio" name="1"><br><label>3</label></td>
+            <td><input type="radio" name="1"><br><label>4</label></td>
+        </tr>
+        <tr>
+            <th>
+                Our products are high quality.
+            </th>
+            <td><input type="radio" name="2"><br><label>1</label></td>
+            <td><input type="radio"name="2"><br><label>2</label></td>
+            <td><input type="radio" name="2"><br><label>3</label></td>
+            <td><input type="radio" name="2"><br><label>4</label><td>
+            <tr>
+        <th>
+            You would recommend our product to a friend or coworker.
+        </th>
+        <td><input type="radio" name="3"><br><label>1</label></td>
+        <td><input type="radio" name="3"><br><label>2</label></td>
+        <td><input type="radio" name="3"><br><label>3</label></td>
+        <td><input type="radio" name="3"><br><label>4</label></td></tr>
+    </table>
+<input type="submit" name="confirm" value="confirm" >
+
+</form>
+
+</body>
+</html>
